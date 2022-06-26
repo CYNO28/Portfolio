@@ -1,0 +1,39 @@
+body{
+    background-color: #1a1a1a;
+}
+.sidebar_flexbox{
+    margin-top: 20vh;
+    position: fixed;
+    height: 80vh;
+    width: 5rem;
+    
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+.sidebar_flexbox div{
+    color: rgb(56, 59, 61);
+    margin: .5rem;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+}
+.sidebar_flexbox div:hover{
+  
+    color: cyan;
+}
+div.line{
+    
+    width: 2px;
+    height: 30vh;
+    padding: 0;
+    cursor: auto;
+   
+    background-color: cyan;
+/* put animation to this line */
+}
+div.Pline{
+    cursor: auto;
+}
