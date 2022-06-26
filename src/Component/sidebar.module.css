@@ -26,14 +26,30 @@ body{
 }
 div.line{
     
-    width: 2px;
-    height: 30vh;
+    width: 3px;
+    border-radius: 5px;
+    height: 40vh;
     padding: 0;
     cursor: auto;
    
-    background-color: cyan;
-/* put animation to this line */
+    background-size: 40% 40%;
+ background: linear-gradient(to bottom,whitesmoke,rgb(97, 236, 236), cyan);
+animation: gradient 30s ease infinite;
 }
+
 div.Pline{
     cursor: auto;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0px 0px;
+    }
+    50% {
+        background-position: 0px 250px;
+    }
+
+  
+    100% {
+        background-position: 0px 500px;
+    }
 }
