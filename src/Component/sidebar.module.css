@@ -1,5 +1,5 @@
 body{
-    background-color: #1a1a1a;
+    background-color: #1e2223;
 }
 .sidebar_flexbox{
     margin-top: 20vh;
@@ -33,7 +33,7 @@ div.line{
     cursor: auto;
    
     background-size: 40% 40%;
- background: linear-gradient(to bottom,whitesmoke,rgb(97, 236, 236), cyan);
+ background: linear-gradient(to bottom,#96c4c3,#499e9d,#008b8b,#96c4c3);
 animation: gradient 30s ease infinite;
 }
 
