@@ -8,6 +8,7 @@
 .navbar{
     display: flex;
     justify-content: flex-end;
+   
 }
 .navlinks{
     display: flex;
