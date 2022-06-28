@@ -32,6 +32,25 @@
     animation: gradient 30s ease infinite;
 
 }
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem .25rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.navlink:hover {
+
+    background: rgb(6, 247, 247);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+
+}
+
 @keyframes gradient {
     0% {
         background-position: 0px 0px;
@@ -44,13 +63,4 @@
     100% {
         background-position: 500px 0px;
     }
-}
-.link{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem .25rem;
-    cursor: pointer;
-    color: #fff;
-    text-decoration: none;
 }
