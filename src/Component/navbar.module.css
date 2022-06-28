@@ -28,6 +28,7 @@
     font-size: .875rem;
     background: linear-gradient(to right,cyan ,white);
     background-clip: text;
+    font-weight: 700;
     -webkit-text-fill-color: transparent;
     animation: gradient 30s ease infinite;
 
