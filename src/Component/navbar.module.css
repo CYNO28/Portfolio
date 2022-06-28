@@ -1,0 +1,55 @@
+*{
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    box-sizing: border-box;   
+}
+.navbar div{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #fff;
+}
+.navlink>P{
+    padding: 5px;
+    font-size: .875rem;
+    background: linear-gradient(to right,cyan ,white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 30s ease infinite;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0px 0px;
+    }
+    50% {
+        background-position: 250px 0px;
+    }
+
+  
+    100% {
+        background-position: 500px 0px;
+    }
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem .25rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
