@@ -1,0 +1,39 @@
+.resumebtn{
+ padding:1rem;
+background:linear-gradient(to left,#ccc ,cyan );
+border: 2px solid cyan;
+border-radius: .5rem;
+font-size: 1rem ;
+font-weight: 700;
+margin-left: 5%;
+margin-top: 2%;
+
+}
+
+.resumebtn:hover{
+    background:linear-gradient(to right,#ccc ,cyan );
+    color: white;
+    outline: none;
+}
+.introhead{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ccc;
+}
+.name{
+    font-size:3rem;
+    color: whitesmoke;
+}
+.tagline{
+    font-size: 1.25rem;
+}
+.container{
+    /* border: 1px solid red; */
+    width: 40vw;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
