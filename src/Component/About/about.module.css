@@ -1,0 +1,46 @@
+.introp{
+    font-size: 1.6rem;
+    color: #484848;
+    
+    letter-spacing: .25rem;
+}
+
+.name{
+    font-size:5rem;
+    margin: 0;
+    background: linear-gradient(to right,#96c4c3,#499e9d,#008b8b,#96c4c3);
+    background-clip: text;
+    color: transparent;
+}
+.introhead{
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: .25rem;
+    color: #ccc;
+}
+.tagline{
+    font-size: 1.5rem;
+    color: #484848;
+    width: 100%;
+}
+.container{
+    /* border: 1px solid red; */
+    width: 50vw;
+    font-family:   Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-left: 10rem;
+    padding: 2rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    animation: fade 8s;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,32 @@
+.container {
+  /* border: 1px solid red; */
+  width: 85vw;
+  height: 90vh;
+  margin: auto;
+  margin-top: 25vh;
+  opacity: 0;
+}
+.grid {
+  display: grid;
+  width: 50vw;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  grid-gap: 4rem;
+  margin: auto;
+}
+
+
+.skill {
+  height: 100px;
+  width: 100px;
+
+  color: rgb(56, 59, 61);
+}
+.heading{
+    font-size: 4rem;
+    color: rgb(56, 59, 61);
+    margin-top: 2rem; 
+    margin-bottom: 10rem; 
+
+}

@@ -1,0 +1,41 @@
+.container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 5vh;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading {
+  font-size: 4rem;
+  width: 100%;
+  color: rgb(56, 59, 61);
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  color: rgb(140, 139, 140);
+}
+.icon:hover {
+  color: cyan;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  width: 10rem;
+}
+
+.proimg {
+  height: 40vh;
+  width: 40vw;
+}
+.prodes{
+    font-size: 1.5rem;
+    color: rgb(56, 59, 61);
+}
+  

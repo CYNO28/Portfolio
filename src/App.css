@@ -1,46 +1,21 @@
-
-.website{
-  width: 100%-1rem;
-  height: 100vh;
-
-  margin: 1rem;
-
-
-}
-.wrapper{
-  width: 148px;
-  border-radius: .25rem;
-
-  height: 75px;
-  background-color: white;
-
-z-index: 999999;
-  overflow-y: hidden;
-  overflow-x: hidden;
-
-  margin-left:1rem ;
+.active{
+    opacity: 1!important;
  
+    animation: riseright 1s ease-in-out;
 }
-iframe{
-  width: 40vh;
-  /* overflow-y: hidden; */
-  height: 30vw;
-  position: absolute;
-  overflow-x: hidden;
-  border: 1px solid red;
+
+@keyframes riseright {
+    0% {
+        transform: translateX(10%);
+        opacity: .1;
+      }
+      100% {
+          transform: translateX(0);
+          opacity: 1;
+      }
   
-}
-
-@keyframes gradient {
-  0% {
-      background-position: 0px 0px;
+      
   }
-  50% {
-      background-position: 0px 250px;
-  }
-
-
-  100% {
-      background-position: 0px 500px;
-  }
+body{
+    scroll-behavior: smooth;
 }

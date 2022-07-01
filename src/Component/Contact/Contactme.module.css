@@ -1,0 +1,38 @@
+.Contactme{
+    width: 60%;
+    height: 100%;
+margin: auto;   
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.Contactme h4{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+.Contactme h2{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+.Contactme button{
+    width: 30%;
+    height: 50px;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  
+    margin: 1rem;  
+    margin-top: 4rem;  
+ 
+
+    /* margin: 30px 0 20px; */
+}

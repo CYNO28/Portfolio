@@ -13,7 +13,7 @@
 .navlinks{
     display: flex;
     justify-content: space-between;
-
+    font-size: 1.25rem;
 }
 .navlink{
     display: flex;
@@ -25,7 +25,7 @@
 }
 .navlink>P{
     padding: 5px;
-    font-size: .875rem;
+    font-size: 1.25rem;
     background: linear-gradient(to right,cyan ,white);
     background-clip: text;
     font-weight: 700;
