@@ -12,12 +12,12 @@ const Work = () => {
       <h1 className={style.heading}>
         Some Things I've <br /> Built...
       </h1>
-      <div className={style.grid}>
+  
      <Freshly/>
 
-     <Kfc/>
+      <Kfc/>
      <Asos/>
-    </div>
+  
     </div>
   );
 };

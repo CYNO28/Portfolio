@@ -6,6 +6,7 @@ import Sidebar from '../Component/SidebarL/Sidebar'
 import TopModal from '../Component/TopModal'
 import Work from '../Component/Work/Work'
 import Contactme from '../Component/Contact/Contactme'
+
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
       <Skills></Skills>
       <Work/> 
         <Sidebar/>
+      
         <Contactme/>
         {/* <TopModal/> */}
     </div>
