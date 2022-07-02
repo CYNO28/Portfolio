@@ -7,17 +7,17 @@ const Sidebar = () => {
     <>
     <div className={style.sidebar_flexbox}>
         <div></div>
-<div onClick={()=>{Window.location.href="https://github.com/CYNO28"}} >
+<div onClick={()=>{Window.open("https://github.com/CYNO28","_blank")}} >
 <FiGithub/>
 </div>
-<div onClick={()=>{window.location.href ="https://www.linkedin.com/in/dinesh-singh-95a887223/"}}>
+<div onClick={()=>{window.open("https://www.linkedin.com/in/dinesh-singh-95a887223/","_blank")}}>
 <FiLinkedin />
 </div>
 <div>
-<FiInstagram  onClick={()=>{window.location.href="https://www.instagram.com/din_2898/"}}/>
+<FiInstagram  onClick={()=>{window.open("https://www.instagram.com/din_2898/","_blank")}}/>
 </div>
 <div>
-    <SiGmail  onClick={()=>{window.location.href="https://dineshsingh9582@gmail.com"}}/>
+    <SiGmail  onClick={()=>{window.open("https://dineshsingh9582@gmail.com","_blank")}}/>
 </div>
 <div className={style.Pline}>
     <div className={style.line}></div>
