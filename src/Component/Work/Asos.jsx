@@ -28,11 +28,11 @@ const NewTemplate = () => {
       </div>
       
       <div className={style.linkbox}>
-        <a href="https://github.com/CYNO28/ASOS">
+        <a href="https://github.com/CYNO28/ASOS" target="_blank">
         <FiGithub className={style.icon} />
           
         </a>
-        <a href="https://asos-one.vercel.app/">
+        <a href="https://asos-one.vercel.app/" target="_blank">
         <MdOutlineLiveTv className={style.icon} />
         </a>
         </div>

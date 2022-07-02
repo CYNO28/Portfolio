@@ -29,11 +29,11 @@ const NewTemplate = () => {
       </div>
       
       <div className={style.linkbox}>
-        <a href="https://github.com/CYNO28/kfc">
+        <a href="https://github.com/CYNO28/kfc" target="_blank">
         <FiGithub className={style.icon} />
           
         </a>
-        <a href="https://rococo-sunburst-64227a.netlify.app/">
+        <a href="https://rococo-sunburst-64227a.netlify.app/" target="_blank">
         <MdOutlineLiveTv className={style.icon} />
         </a>
         </div>

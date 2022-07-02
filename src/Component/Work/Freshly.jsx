@@ -24,15 +24,15 @@ const NewTemplate = () => {
 
         </div>
       <div className={style.techbox}>
-    github 
+    HTML | CSS | JavaScript 
       </div>
       
       <div className={style.linkbox}>
-        <a href="">
+        <a href="https://github.com/CYNO28/Freshly" target="_blank">
         <FiGithub className={style.icon} />
           
         </a>
-        <a href="">
+        <a href="arkling-kitten-532247.netlify.app" target="_blank">
         <MdOutlineLiveTv className={style.icon} />
         </a>
         </div>
