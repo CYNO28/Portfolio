@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
           <div className={style.navlink}>
             <p>03.</p>
-          <Link className={style.link} to={window.open("https://drive.google.com/file/d/1WsVxdmGY1lcudg6jMgsjBU8QPaDWOzp8/view?usp=sharing","_blank")}>Resume</Link>
+          <a className={style.link} href="https://drive.google.com/file/d/1WsVxdmGY1lcudg6jMgsjBU8QPaDWOzp8/view?usp=sharing" target="_blank">Resume</a>
           </div>
         </div>
       </div>
