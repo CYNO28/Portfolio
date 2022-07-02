@@ -2,7 +2,7 @@ import React from "react";
 import style from "./about.module.css";
 const About = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="about">
       <div className={style.intro}>
         <p className={style.introp}> Hi, my name is</p>
         <h1 className={style.name}> Dinesh Bisht</h1>

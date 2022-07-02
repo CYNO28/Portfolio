@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import style from './navbar.module.css'
-const Navbar = () => {
+const Navbar = ({scroller}) => {
   return (
     <>
       <div className={style.navbar}>
@@ -9,15 +9,15 @@ const Navbar = () => {
         <div className={style.navlinks}>
           <div className={style.navlink}>
           <p>00.</p>
-          <Link className={style.link}  to={''}>About</Link>
+          <a className={style.link} href="#about"  >About</a>
           </div>
           <div className={style.navlink}>
           <p>01.</p>
-          <Link className={style.link} to={'#work'}>Work</Link>
+          <a className={style.link}  href="#work" >Work</a>
           </div>
           <div className={style.navlink}>
           <p>02.</p>
-          <Link className={style.link} to={''}>Contact</Link>
+          <a className={style.link} href="#contact" >Contact</a>
           </div>
           <div className={style.navlink}>
             <p>03.</p>

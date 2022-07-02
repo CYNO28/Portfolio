@@ -6,17 +6,37 @@ import Sidebar from '../Component/SidebarL/Sidebar'
 import TopModal from '../Component/TopModal'
 import Work from '../Component/Work/Work'
 import Contactme from '../Component/Contact/Contactme'
+import { useRef } from 'react'
 
 const Home = () => {
+  const work_ref = useRef()
+  const about_ref = useRef()
+  const skills_ref = useRef()
+  const contact_ref = useRef()
+function scroller(str){
+  if (str==='work'){
+    work_ref.current.scrollIntoView({behavior: 'smooth'})
+  }
+  if(str==='about'){
+    about_ref.current.scrollIntoView({behavior: 'smooth'})
+  }
+  if(str==='skills'){
+    skills_ref.current.scrollIntoView({behavior: 'smooth'})
+  }
+  if(str==='contact'){
+    contact_ref.current.scrollIntoView({behavior: 'smooth'})
+  }
+  
+}
   return (
     <div>
-      <Navbar/>
-      <About></About>
-      <Skills></Skills>
-      <Work/> 
+      <Navbar />
+      <About  ref={about_ref} ></About>
+      <Skills ref={skills_ref}></Skills>
+      <Work  ref={work_ref}/> 
         <Sidebar/>
       
-        <Contactme/>
+        <Contactme ref={contact_ref} />
         {/* <TopModal/> */}
     </div>
   )
