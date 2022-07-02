@@ -13,7 +13,7 @@ const Navbar = () => {
           </div>
           <div className={style.navlink}>
           <p>01.</p>
-          <Link className={style.link} to={''}>Work</Link>
+          <Link className={style.link} to={'#work'}>Work</Link>
           </div>
           <div className={style.navlink}>
           <p>02.</p>
