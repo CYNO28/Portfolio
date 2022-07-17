@@ -1,23 +1,33 @@
 import React from 'react'
+
+
+import Navbar from '../Component/Navbar/Navbar'
+
+
+
+import { useRef } from 'react'
+import NavbarMid from '../Component/NavbarMid/NavbarMid'
 import About from '../Component/About/About'
 import Skills from '../Component/Skills/Skills'
-import Navbar from '../Component/Navbar/Navbar'
-import Sidebar from '../Component/SidebarL/Sidebar'
-import Work from '../Component/Work/Work'
-import Contactme from '../Component/Contact/Contactme'
-import { useRef } from 'react'
+import Loading from '../Component/Loading/Load'
+import Projects from '../Component/Projects/Projects'
+
+
 
 const Home = () => {
 
   return (
     <div>
       <Navbar />
-      <About   ></About>
-      <Skills></Skills>
-      <Work /> 
-        <Sidebar/>
       
-        <Contactme />
+      <NavbarMid/>
+      <About/>
+
+
+      <Skills/>
+      <Projects/>
+
+
     </div>
   )
 }

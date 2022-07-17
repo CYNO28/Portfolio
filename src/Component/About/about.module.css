@@ -1,8 +1,8 @@
 .introp{
-    font-size: 1.6rem;
+    font-size: 1.6em;
     color: #484848;
     
-    letter-spacing: .25rem;
+    letter-spacing: .25em;
 }
 
 .name{
@@ -13,29 +13,30 @@
     color: transparent;
 }
 .introhead{
-    font-size: 3.5rem;
+    font-size: 3.5em;
     font-weight: 700;
     letter-spacing: .25rem;
     color: #ccc;
 }
 .tagline{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #484848;
     width: 100%;
-}
-.container{
-    /* border: 1px solid red; */
+} 
+ .container{
+    
     width: 50vw;
     font-family:   Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    margin-left: 10rem;
-    padding: 2rem;
-    margin-top: 8rem;
+    overflow: auto;
+    padding: 2em;
+    margin-top: 18vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     animation: fade 8s;
-}
+   
+} 
 @keyframes fade{
     0%{
         opacity: 0;
@@ -43,4 +44,32 @@
     100%{
         opacity: 1;
     }
+} 
+.canvas{
+    
+    width: 30vw;
+    margin-top: 18vh;
+    
+}
+.flexbox{
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    padding: 0 10vw;
+}
+
+    
+@media screen and (max-width: 700px)
+{
+    .canvas{
+        display: none;
+    }
+    .introp{font-size: 1.2em;}
+    .name{
+        font-size:3.1em;
+    }
+    .introhead{
+        font-size:2.1em ;
+    }
+    .tagline{ font-size: 1.2em;}
 }

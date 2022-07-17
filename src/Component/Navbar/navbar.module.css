@@ -1,31 +1,39 @@
-*{
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-    box-sizing: border-box;   
-}
+
 .navbar div{
     display: flex;
+   
 }
 .navbar{
+    /* opacity: 1; */
+    display: block;
     display: flex;
     justify-content: flex-end;
-   
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    flex:1;
+   animation:risein .3s linear
+    
 }
 .navlinks{
     display: flex;
     justify-content: space-between;
-    font-size: 1.25rem;
+    font-size: 1.125em;
+    font-weight: 700;
+    width: 100%;
+    padding: 0 2em;
 }
 .navlink{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.5em 1em;
     cursor: pointer;
     color: #fff;
 }
 .navlink>P{
     padding: 5px;
-    font-size: 1.25rem;
+    font-size: 1em;
     background: linear-gradient(to right,cyan ,white);
     background-clip: text;
     font-weight: 700;
@@ -38,7 +46,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem .25rem;
+    padding: 0.5em .25em;
     cursor: pointer;
     color: #fff;
     text-decoration: none;
@@ -64,4 +72,39 @@
     100% {
         background-position: 500px 0px;
     }
+}
+
+@media screen and (max-width: 700px) {
+   .navbar{
+    
+    display: none;
+   }
+
+  }
+  /* put animation in hidden ese */
+
+@keyframes risein{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.hidden{
+
+ display: none;
+  
+}
+.blur{
+    /* make background blur */
+
+ background: transparent;
+   /* opacity: 0.5;
+    */
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(4, 7, 13, 0.25) 0px 5px 5px, rgba(74, 75, 76, 0.13) 0px 0px 6px 6px;
+    z-index: 9;
 }

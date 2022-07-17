@@ -1,0 +1,61 @@
+.losange,
+.losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 100px;
+
+  height: 100px;
+}
+.losange {
+  transform: rotate(45deg) translateY(10px);
+
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.losange:hover{
+  transform: scale(1.05) rotate(45deg) translateY(10px);
+}
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+.img {
+  width: 100%;
+  height: 100%;
+  padding-top: 6.5%;
+  object-fit: cover;
+}
+.image {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+}
+
+.tag {
+  width: 100% !important;
+  height: 100% !important;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 50%;
+  backdrop-filter: blur(3px);
+  bottom: -0%;
+  color: 1e2223;
+  transform: rotate(-90deg) translateY(-50%);
+  opacity: 0.01;
+  font-size: 1em;
+  z-index: 2;
+  text-align: center;
+}
+.tag:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+@keyframes start {
+  0% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

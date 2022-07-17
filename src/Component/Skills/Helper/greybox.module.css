@@ -1,0 +1,22 @@
+
+  
+  .dia,
+  .dia div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 140px;
+  background-color:#1e2223;
+    height: 150px;
+  }
+  .dia {
+    transform: rotate(45deg) translateY(10px);
+  
+  }
+ 
+  .dia .los1 {
+    width: 355px;
+    height: 355px;
+  
+    transform: rotate(-45deg) translateY(-74px);
+  }
