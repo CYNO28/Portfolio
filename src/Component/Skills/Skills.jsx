@@ -3,7 +3,8 @@ import { useRef } from "react";
 import Greybox from "./Helper/Greybox";
 import Skill from "./Skill/Skill";
 import style from "./skills.module.css";
-import style1 from "./Helper/clouds.module.css";
+
+import Info from "./Info/Info";
 const Skills = () => {
   const ref = useRef(null);
   React.useEffect(() => {
@@ -35,7 +36,7 @@ const Skills = () => {
 
   return (
     <div className={style.Container}>
-      <div className={style1.clouds}></div>
+  
       <div className={style.skillbox}>
         <div className={style.container} ref={ref}>
           <div className={style.whitebox}></div>
@@ -70,6 +71,7 @@ const Skills = () => {
             <Skill img_url={"/Icon/javascript.png"} tag={"Javascript"}></Skill>
           </div>
         </div>
+        <Info/>
       </div>
       <div className={style.infocontainer}></div>
     </div>

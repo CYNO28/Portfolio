@@ -25,6 +25,11 @@ let currentScrollY = window.scrollY;
   return (
     <>
       <div className={style.navbar} ref={nav}>
+          <div className={style.logo}>
+           <p>
+             D
+            </p>
+          </div>
         <div>
           <div className={style.navlinks}>
             <div className={style.navlink}>

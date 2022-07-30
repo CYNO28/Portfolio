@@ -1,0 +1,156 @@
+.backgroundC {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-top: 0;
+  border-bottom: 80vh solid white;
+  border-left: 130vw solid #1e2223;
+  left: -30vw;
+  z-index: -1;
+}
+.box {
+  display: flex;
+}
+.rightbox img {
+  width: 100%;
+  aspect-ratio: 1.25;
+}
+.box > div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+  aspect-ratio: 16/9;
+  margin-bottom: 15vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.container * {
+  margin: 0;
+  letter-spacing: 0.3px;
+  font-weight: 400 !important;
+  font-family: "Volte", sans-serif;
+}
+.leftbox input {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-top: 0.75rem;
+  outline: none;
+  border: none;
+
+  border-radius: 0.5rem;
+  background-color: rgb(223, 247, 247);
+}
+.leftbox textarea {
+  background-color: rgb(223, 247, 247);
+  border-radius: 0.5rem;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+.leftbox button {
+  background-color: rgb(21, 179, 187);
+
+  border: none;
+  padding: 12px 15px;
+  font-size: 18px;
+  margin-top: 0.75rem;
+  outline: none;
+  color: #fff;
+}
+.container > h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.container > p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0 !important;
+  color: hsl(0, 2%, 61%);
+}
+.rightbox {
+  width: 50%;
+}
+.rightbox p {
+  font-size: 12px;
+  letter-spacing: 0.3px !important;
+  margin-bottom: 8px;
+  color: rgb(4, 100, 100);
+  font-weight: 500;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+.socialicon {
+  width: 2rem !important;
+  height:378px !important;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: -4.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  position: relative;
+}
+
+.socialicon a {
+  text-decoration: none;
+  font-size: 1rem;
+  height:32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(21, 179, 187);
+  color: white;
+}
+.socialicon a:hover {
+  background-color: rgb(4, 100, 100);
+  color: rgb(26, 224, 250);
+}
+.socialicon a:nth-child(3) {
+  border-bottom-right-radius: 1rem;
+}
+.textarea:-webkit-resizer {
+  display: hidden;
+}
+.textarea {
+  resize: none;
+}
+.leftbox,
+.rightbox {
+  
+  height: 400px !important;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+}
+.leftbox input::placeholder{
+    color: hsl(0, 2%, 61%);
+}
+.leftbox textarea::placeholder{
+    color: hsl(0, 2%, 61%);
+}

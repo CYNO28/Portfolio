@@ -2,19 +2,20 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  justify-content: space-around;
   margin-left: 10em;
   position: relative;
 }
 .container {
   width: 30vw;
   height: auto;
-  border: 1px solid red;
+
   position: relative;
 
 }
 
-.container div {
-  z-index: 1;
+.container  {
+  z-index: 123;
 }
 
 .skill_1 {
@@ -23,6 +24,7 @@
   left: 40px;
   width: auto;
   opacity: 0;
+
 }
 
 .skill_2 {
@@ -171,12 +173,11 @@
   width: 0;
   height: 0;
   position: absolute;
-  border-top: 320px solid #1e2223;
+  border-top: 320px solid transparent;
   border-right: 320px solid white;
-  border-bottom: 320px solid #1e2223;
+  border-bottom: 320px solid transparent;
   z-index: -123;
   top: -245px;
-
   left: 73.5px;
   transform: rotate(90deg);
 }
@@ -186,6 +187,7 @@
   z-index: 1;
   top: 165px;
   left: -65px;
+  
 }
 .greybox1 {
   position: absolute;
@@ -244,7 +246,7 @@
 
 }
 .infocontainer {
-  border: 1px solid red;
+ 
   width: 30%;
   height: 30vh;
   backdrop-filter: blur(10px);

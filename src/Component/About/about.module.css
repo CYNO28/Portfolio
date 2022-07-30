@@ -4,9 +4,13 @@
     
     letter-spacing: .25em;
 }
-
+*{
+                                                
+    font-family: 'Oscine Trial', sans-serif;
+                                                                                                                                                              
+}
 .name{
-    font-size:5rem;
+    font-size:6rem;
     margin: 0;
     background: linear-gradient(to right,#96c4c3,#499e9d,#008b8b,#96c4c3);
     background-clip: text;
@@ -15,13 +19,17 @@
 .introhead{
     font-size: 3.5em;
     font-weight: 700;
-    letter-spacing: .25rem;
+    letter-spacing: .2rem;
     color: #ccc;
+    word-spacing: .25rem;
+   
 }
 .tagline{
     font-size: 1.5em;
     color: #484848;
     width: 100%;
+    word-spacing: .25rem;
+
 } 
  .container{
     

@@ -1,0 +1,28 @@
+.container {
+ 
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+
+}
+.box{
+  width: 50%;
+  height:80%;
+  border: 1px solid yellow;
+/* background-color: ; */
+
+}
+
+@media screen and (max-width:1000px) {
+  .box{
+    display: none;
+  }
+  .container{
+    width: 30%;
+  }
+  
+}

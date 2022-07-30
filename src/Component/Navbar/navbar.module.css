@@ -3,11 +3,15 @@
     display: flex;
    
 }
+  .navbar *{
+  font-family: "Volte", sans-serif!important;
+
+  }
 .navbar{
-    /* opacity: 1; */
+
     display: block;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -22,6 +26,7 @@
     font-weight: 700;
     width: 100%;
     padding: 0 2em;
+   
 }
 .navlink{
     display: flex;
@@ -81,7 +86,7 @@
    }
 
   }
-  /* put animation in hidden ese */
+
 
 @keyframes risein{
     0%{
@@ -99,12 +104,26 @@
   
 }
 .blur{
-    /* make background blur */
-
  background: transparent;
-   /* opacity: 0.5;
-    */
-    backdrop-filter: blur(10px);
+
+    backdrop-filter: blur(7px);
     box-shadow: rgba(4, 7, 13, 0.25) 0px 5px 5px, rgba(74, 75, 76, 0.13) 0px 0px 6px 6px;
     z-index: 9;
+}
+
+.logo{
+    width: 5rem;
+    margin-left: 2.5rem;
+    aspect-ratio: 1;
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00e6f6;
+}
+.logo p{
+
+    margin: 0;
 }
