@@ -1,0 +1,71 @@
+.wrapper {
+  width: 90vw;
+
+  margin: auto;
+  margin-bottom: 10rem;
+  display: flex;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.UpperTriangle {
+  width: 150%;
+  height: 150%;
+  background-color: white;
+  transform: rotate(45deg) translateX(-80%);
+  animation: goup 2s ease-in-out;
+  position: absolute;
+  z-index: 2;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.BottomTriangle {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    #35cae1 -6px -2px 16px 0px;
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  z-index: 2;
+  background-color: #35cae1;
+  transform: rotate(45deg) translateX(80%);
+  animation: godown 2s ease-in-out;
+}
+.active{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes goup {
+  0% {
+    transform: rotate(45deg) translate(-50%);
+  }
+  100% {
+    transform: rotate(45deg) translate(-80%);
+  }
+}
+@keyframes godown {
+  0% {
+    transform: rotate(45deg) translate(50%);
+  }
+  100% {
+    transform: rotate(45deg) translate(80%);
+  }
+}
