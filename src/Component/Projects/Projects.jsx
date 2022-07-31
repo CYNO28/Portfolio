@@ -1,14 +1,17 @@
 import React from 'react'
+
+
 import style from './project.module.css'
 
 const Projects = () => {
+
+
  
   return (
     <div  className={style.wrapper}>
-      <div className={style.container}>
+  <div className={style.container}>
      
-        <div className={style.UpperTriangle}>
-        </div>
+        <div className={style.UpperTriangle}></div>
         <div className={style.BottomTriangle}></div>
         <div className={style.LeftTriangle}></div>
         <div className={style.RightTriangle}></div>
