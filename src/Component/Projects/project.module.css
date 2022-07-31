@@ -1,6 +1,6 @@
 .wrapper {
   width: 90vw;
-
+  height: 80vh;
   margin: auto;
   margin-bottom: 10rem;
   display: flex;
@@ -11,7 +11,7 @@
   justify-content: center;
   width: 50%;
   aspect-ratio: 1;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -20,12 +20,10 @@
   width: 150%;
   height: 150%;
   background-color: white;
-  transform: rotate(45deg) translateX(-50%);
+  transform: rotate(45deg) translateX(-80%);
   animation: goup 2s ease-in-out;
   position: absolute;
-  z-index: 1;
-
-    z-index: 1;
+  z-index: 5;
 }
 .BottomTriangle {
 
@@ -35,7 +33,7 @@
   background-color: white;
   transform: rotate(45deg) translateX(80%);
   animation: godown 2s ease-in-out;
-  z-index: 3;
+  z-index:5 ;
 }
 .LeftTriangle {
   width: 150%;
@@ -45,15 +43,14 @@
   background-color: #35cae1;
   
   animation: goleft 2s ease-in-out;
-  z-index: 2;
+  z-index: ;
 }
 .RightTriangle {
   width: 150%;
   height: 150%;
   position: absolute;
   background-color: #35cae1;
-  /* background-color: red; */
-  transform: rotate(135deg) translateX(50%);
+  transform: rotate(135deg) translateX(80%);
   animation: goright 2s ease-in-out;
 
     z-index: 3;
