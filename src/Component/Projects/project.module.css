@@ -43,7 +43,7 @@
   background-color: #35cae1;
   
   animation: goleft 2s ease-in-out;
-  z-index: ;
+  
 }
 .RightTriangle {
   width: 150%;
@@ -52,8 +52,6 @@
   background-color: #35cae1;
   transform: rotate(135deg) translateX(80%);
   animation: goright 2s ease-in-out;
-
-    z-index: 3;
 }
 
 
