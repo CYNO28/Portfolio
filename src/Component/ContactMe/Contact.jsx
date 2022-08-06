@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import style from "./contact.module.css";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { BsGithub } from "react-icons/bs";
@@ -11,6 +11,7 @@ const Contact = () => {
     email: "",
     message: "",
   })
+  const ref=useRef()
   function onchange(e) {
     setState({
       ...state,
@@ -28,13 +29,13 @@ const Contact = () => {
     };
     
     let r= await axios.post("https://portfoliocyno.herokuapp.com/sendemail", data)
-    console.log(r)
+    ref.current.innerHTML="<img src='/img'>"
 
 
   }
   return (
     <>
-      <div className={style.wrapper}>
+      <div className={style.wrapper} id='contact'>
         <div className={style.container}>
           <h1>Get in Touch</h1>
           <p>Fill the details to reach me.</p>
@@ -53,7 +54,7 @@ const Contact = () => {
                 
                 placeholder="Message"
               ></textarea>
-              <button onClick={onsubmit}>Submit</button>
+              <button ref={ref} onClick={onsubmit}>Submit</button>
             </div>
             <div className={style.rightbox}>
               <img src="/img/Layer0.png" alt="" />

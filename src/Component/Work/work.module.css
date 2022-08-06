@@ -3,11 +3,14 @@
     border: 1px solid rgb(77, 77, 77);
     border-radius: 1rem;
     padding: 2rem;
+    margin-bottom: 10rem;
 }
 .wrapper>h1{
+    color: rgb(80, 80, 80);;
     font-size:4rem;
     margin: 0;
-    border-bottom: 10px solid red;
+    border-bottom: 10px solid #35d8ba;
+    border-radius: .5rem;
     width: fit-content;
     margin: 0  0 2rem 1rem ;
 }
@@ -18,5 +21,7 @@
    
     display: grid;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
