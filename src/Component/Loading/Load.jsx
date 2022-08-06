@@ -12,7 +12,7 @@ const Loading = () => {
   return (
     <div className={style.wrapper}>
       <div>
-        <img className={style.icon} src="/Loading.gif" alt="" />
+        <img className={style.icon} src="/load.gif" alt="" />
       </div>
       <div className={style.text}>
         <p className={style.clrtext}>Introverts are like a slow website.</p>
