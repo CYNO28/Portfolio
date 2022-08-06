@@ -154,3 +154,9 @@
 .leftbox textarea::placeholder{
     color: hsl(0, 2%, 61%);
 }
+@media  screen and (max-width:900px) {
+  .wrapper{
+    transform: scale(.75);
+  }
+  
+}

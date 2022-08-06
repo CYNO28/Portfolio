@@ -244,6 +244,8 @@
   width: 99vw;
   margin-top: 10rem;
 
+  position: relative;
+
 }
 .infocontainer {
  
@@ -257,4 +259,12 @@
 
     margin-left: 0;
   }
+}
+.skillheading{
+  color: rgb(80, 80, 80);
+  font-size: 4rem;
+  margin:0;
+  position: absolute;
+  top: 5rem;
+  left: 3rem;
 }
