@@ -4,7 +4,34 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 import { BsGithub } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { CgPhone } from "react-icons/cg";
+import axios from "axios";
 const Contact = () => {
+  const [state, setState] = React.useState({
+    name: "",
+    email: "",
+    message: "",
+  })
+  function onchange(e) {
+    setState({
+      ...state,
+      [e.target.name]: e.target.value,
+    })
+  }
+ async function onsubmit(e) {
+  
+    e.preventDefault();
+    const { name, email, message } = state;
+    const data = {
+      name,
+      email,
+      message,
+    };
+    
+    let r= await axios.post("https://portfoliocyno.herokuapp.com/sendemail", data)
+    console.log(r)
+
+
+  }
   return (
     <>
       <div className={style.wrapper}>
@@ -13,18 +40,20 @@ const Contact = () => {
           <p>Fill the details to reach me.</p>
           <div className={style.box}>
             <div className={style.leftbox}>
-              <input type="text" placeholder="Full Name" />
-              <input type="text" placeholder="Email" />
+              <input type="text" name="name" onChange={onchange} placeholder="Full Name"  />
+              <input type="text" name="email" onChange={onchange} placeholder="Email" />
               <textarea
+
               className={style.textarea}
-                name=""
+                name="message"
                 id=""
+                onChange={onchange}
                 cols="30"
                 rows="10"
                 
                 placeholder="Message"
               ></textarea>
-              <button>Submit</button>
+              <button onClick={onsubmit}>Submit</button>
             </div>
             <div className={style.rightbox}>
               <img src="/img/Layer0.png" alt="" />
