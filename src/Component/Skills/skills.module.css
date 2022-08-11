@@ -268,3 +268,8 @@
   top: 5rem;
   left: 3rem;
 }
+@media screen and (max-width: 610px) {
+.skillheading{
+  opacity: 0;
+}
+}

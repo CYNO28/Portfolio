@@ -17,7 +17,7 @@ const About = () => {
       
     </div>
     <div className={style.canvas}>
-      <Modal></Modal>
+      <Modal />
       </div>
     </div>
   );

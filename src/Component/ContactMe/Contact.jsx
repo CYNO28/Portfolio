@@ -29,10 +29,11 @@ const Contact = () => {
     };
     
     let r= await axios.post("https://portfoliocyno.herokuapp.com/sendemail", data)
-    ref.current.innerHTML="<img src='/img'>"
+
 
 
   }
+ 
   return (
     <>
       <div className={style.wrapper} id='contact'>
@@ -56,8 +57,8 @@ const Contact = () => {
               ></textarea>
               <button ref={ref} onClick={onsubmit}>Submit</button>
             </div>
-            <div className={style.rightbox}>
-              <img src="/img/Layer0.png" alt="" />
+        <div className={style.rightbox}>
+              <img src="/img/profile.png" className={style.profileimg} alt="" />
               <p>
                 <MdLocationOn className={style.icon}></MdLocationOn>
                 <span>Baret Bageshwar Uttrakhand 263642</span>
@@ -73,13 +74,13 @@ const Contact = () => {
             </div>
 
             <div className={style.socialicon}>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://www.facebook.com/dinesh.singh.71465572">
                 <FaFacebookF  className={style.sicon}></FaFacebookF>
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://github.com/CYNO28">
                 <BsGithub className={style.sicon}></BsGithub>
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://www.linkedin.com/in/dinesh-singh-95a887223/">
                 <FaLinkedinIn className={style.sicon}></FaLinkedinIn>
               </a>
             </div>

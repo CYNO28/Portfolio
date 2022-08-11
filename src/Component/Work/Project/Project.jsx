@@ -9,10 +9,10 @@ const Project = ({ project }) => {
       <h2>{project.name}</h2>
       <p>{project.des}</p>
       <div className={style.links}>
-        <a href={project.live_link}>
+        <a href={project.live_link} target="_blank">
         <AiOutlineLink/>
         </a>
-        <a href={project.github_link}>
+        <a href={project.github_link} target="_blank">
           <DiGithubFull />
         </a>
         </div>

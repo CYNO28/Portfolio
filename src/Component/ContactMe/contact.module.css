@@ -160,3 +160,20 @@
   }
   
 }
+.profileimg{
+  width: 90%!important;
+  margin-bottom: 1.25rem;  
+}
+    
+@media screen and (max-width: 750px){
+ .rightbox{
+  display: none;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+ }
+  .leftbox{
+    width: 100%!important;
+  }
+  
+}

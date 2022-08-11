@@ -60,7 +60,7 @@ else{
               <a
               onClick={onClickHandler}
                 className={style.link}
-                href="https://drive.google.com/file/d/1WsVxdmGY1lcudg6jMgsjBU8QPaDWOzp8/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1ecOBM_4_kdvirfOiSi5e9Oz3tqdjMzIX?usp=sharing"
                 target="_blank"
               >
                 Resume

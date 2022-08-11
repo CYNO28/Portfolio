@@ -36,7 +36,7 @@ const Skills = () => {
 
   return (
     <div className={style.Container}>
-      {/* <h1 className={style.skillheading}>Skills ...</h1> */}
+      <h1 className={style.skillheading}>Skills i have...</h1>
       <div className={style.skillbox}>
         <div className={style.container} ref={ref}>
           <div className={style.whitebox}></div>

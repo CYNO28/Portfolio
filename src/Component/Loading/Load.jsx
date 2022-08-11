@@ -14,15 +14,15 @@ const Loading = () => {
       <div>
         <img className={style.icon} src="/load.gif" alt="" />
       </div>
-      <div className={style.text}>
-        <p className={style.clrtext}>Introverts are like a slow website.</p>
+      {/* <div className={style.text}> */}
+        {/* <p className={style.clrtext}>Introverts are like a slow website.</p>
         <p className={style.nrtext}>
           They might be the coolest site,
           <br></br> but usually people <br></br>don't wait that
           long for them to open
         </p>
-        <p className={style.clrtext} style={{marginLeft:"20%",marginTop:"1rem"}}>Extroverts are like Popups</p>
-      </div>
+        <p className={style.clrtext} style={{marginLeft:"20%",marginTop:"1rem"}}>Extroverts are like Popups</p> */}
+      {/* </div> */}
     </div>
   );
   

@@ -6,8 +6,8 @@ const Work = () => {
 name: "Freshly",
 img: "/project_img/freshly.png",
 des:'This is a frontend clone of Freshly.com. Which is a food delivery company. We used html, css, javascript to bulid to this project.',
-live_link: "",
-github_link: ""
+live_link: "https://nimble-fudge-35bf79.netlify.app/",
+github_link: "https://github.com/CYNO28/Freshly"
     },
 {
 name: "KFC",
@@ -26,7 +26,7 @@ github_link: "https://github.com/CYNO28/kfc"
     name:'Getharvest',
     img:"/project_img/harvest.png",
     des:'This is a frontend clone of GetHarvest.com. Which is a food delivery company. We used html, css, javascript to bulid to this project.',
-    line_link:"frontend-seven-rho.vercel.app/",
+    line_link:"https://frontend-seven-rho.vercel.app/",
     github_link:"https://github.com/CYNO28/-puny-potato-4945"
 }
 ]
