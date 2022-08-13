@@ -16,3 +16,8 @@ You may also see any lint errors in the console.
 
 Live link:-
 https://three-dusky.vercel.app/
+
+##TECH USED
+
+
+<img src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"><img/>
