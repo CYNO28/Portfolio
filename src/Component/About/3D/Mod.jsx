@@ -1,6 +1,7 @@
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import React, { Suspense } from "react";
+import { Navigate } from "react-router-dom";
 import * as THREE from "three";
 import Load from "../../Loading/Load";
 const Mod = () => {
@@ -21,7 +22,7 @@ const Mod = () => {
 
   return (
     <>
-      <Suspense fallback={<Load />}>
+      <Suspense fallback={<><img src="/load.gif" alt="" /></>}>
         <primitive
           object={gltf.scene}
           scale={[2.5, 2.5, 2.5]}
