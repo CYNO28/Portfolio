@@ -20,4 +20,8 @@ https://three-dusky.vercel.app/
 ##TECH USED
 
 
-<img src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"><img/>
+<img src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" width="100px" height="100px"><img/>
+<img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" width="100px" height="100px"><img/>
+<img src="https://img.icons8.com/color/2x/html-5--v2.png" width="100px" height="100px"><img/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Three.js_Icon.svg/300px-Three.js_Icon.svg.png" width="100px" height="100px"><img/>
+
