@@ -22,7 +22,7 @@ const Mod = () => {
 
   return (
     <>
-      <Suspense fallback={<><img src="/load.gif" alt="" /></>}>
+      <Suspense fallback={<></>}>
         <primitive
           object={gltf.scene}
           scale={[2.5, 2.5, 2.5]}

@@ -97,7 +97,7 @@
 }
 .socialicon {
   width: 2rem !important;
-  height:378px !important;
+  height: 378px !important;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -119,7 +119,7 @@
 .socialicon a {
   text-decoration: none;
   font-size: 1rem;
-  height:32px;
+  height: 32px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -142,38 +142,37 @@
 }
 .leftbox,
 .rightbox {
-  
   height: 400px !important;
   display: flex;
   flex-wrap: nowrap;
   justify-content: stretch;
 }
-.leftbox input::placeholder{
-    color: hsl(0, 2%, 61%);
+.leftbox input::placeholder {
+  color: hsl(0, 2%, 61%);
 }
-.leftbox textarea::placeholder{
-    color: hsl(0, 2%, 61%);
+.leftbox textarea::placeholder {
+  color: hsl(0, 2%, 61%);
 }
-@media  screen and (max-width:900px) {
-  .wrapper{
-    transform: scale(.75);
+@media screen and (max-width: 900px) {
+  .wrapper {
+    transform: scale(0.75);
   }
-  
 }
-.profileimg{
-  width: 90%!important;
-  margin-bottom: 1.25rem;  
+.profileimg {
+  width: 90% !important;
+  margin-bottom: 1.25rem;
+  /* border: 1px solid red; */
+  margin-left: 1rem;
 }
-    
-@media screen and (max-width: 750px){
- .rightbox{
-  display: none;
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
- }
-  .leftbox{
-    width: 100%!important;
+
+@media screen and (max-width: 750px) {
+  .rightbox {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
   }
-  
+  .leftbox {
+    width: 100% !important;
+  }
 }
