@@ -17,7 +17,8 @@ const About = () => {
       
     </div>
     <div className={style.canvas}>
-      <Modal />
+              <img src="/img/profile.png" className={style.profileimg} alt="" />
+      
       </div>
     </div>
   );

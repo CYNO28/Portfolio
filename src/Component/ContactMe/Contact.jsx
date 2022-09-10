@@ -5,6 +5,7 @@ import { BsGithub } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { CgPhone } from "react-icons/cg";
 import axios from "axios";
+import Modal from "../About/3D/Modal";
 const Contact = () => {
   const [state, setState] = React.useState({
     name: "",
@@ -58,7 +59,7 @@ const Contact = () => {
               <button ref={ref} onClick={onsubmit}>Submit</button>
             </div>
         <div className={style.rightbox}>
-              <img src="/img/profile.png" className={style.profileimg} alt="" />
+              <Modal></Modal>
               <p>
                 <MdLocationOn className={style.icon}></MdLocationOn>
                 <span>Baret Bageshwar Uttrakhand 263642</span>

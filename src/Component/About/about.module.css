@@ -9,6 +9,19 @@
     font-family: 'Oscine Trial', sans-serif;
                                                                                                                                                               
 }
+.profileimg {
+    width: 80% !important;
+    height: 65% !important;
+    margin-bottom: 1.25rem;
+    /* border: 1px solid red; */
+    margin-left: 1rem;
+    margin-top: 5rem;
+    border-radius:50px 105px 15px 100px;
+    border-width: 10px ;
+    border-style: solid ;
+   border-color: #008b8b;
+   padding: 10px;
+  }
 .name{
     font-size:6rem;
     margin: 0;
